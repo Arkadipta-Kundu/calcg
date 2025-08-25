@@ -31,4 +31,8 @@ public class MainController {
         }
         return ResponseEntity.ok(a / b);
     }
+    @GetMapping("/error")
+    public String errorPage(){
+        return "Bruh! Its classic 404 Situation.";
+    }
 }

@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.HttpStatus;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://y-five-iota.vercel.app")
 @RestController
 @RequestMapping("/api/calculator")
 public class MainController {
